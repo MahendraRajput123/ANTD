@@ -8,6 +8,5 @@ function Child({handleClick}) {
     );
   }
 
-  console.log("sdakfj")
-
+  console.warn("mjhgcgs")
   export default Child;
