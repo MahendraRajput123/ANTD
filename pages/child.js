@@ -7,8 +7,4 @@ function Child({handleClick}) {
       </div>
     );
   }
-
-  console.warn("my name is mahendra")
-  console.warn("my name is mahendra")
-  console.warn("my name is mahendra")
   export default Child;
