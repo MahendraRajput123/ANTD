@@ -8,5 +8,6 @@ function Child({handleClick}) {
     );
   }
 
-  console.warn("mjhgcgs")
+  console.warn("my name is mahendra")
+  console.warn("my name is mahendra")
   export default Child;
