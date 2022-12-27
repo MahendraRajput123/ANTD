@@ -26,9 +26,9 @@ function DebounceSelect<
       setFetching(true);
 
       fetchOptions(value).then(newOptions => {
-        if (fetchId !== fetchRef.current) {
+        if (fetchId !== fetchRef.current) { 
           // for fetch callback order
-          return;
+          return;  
         }
 
         setOptions(newOptions);
