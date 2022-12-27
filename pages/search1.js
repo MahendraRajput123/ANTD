@@ -15,6 +15,9 @@ const Search1 = () => {
           maxTagCount={2}
           allowClear
         >
+          {
+            console.log("mahendra")
+          }
           {fruits.map((fruit, index) => {
             return <Select.Option key={index} value={fruit}></Select.Option>;
           })}
