@@ -21,7 +21,7 @@ function DebounceSelect<
   const debounceFetcher = useMemo(() => {
     const loadOptions = (value: string) => {
       fetchRef.current += 1;
-      const fetchId = fetchRef.current;
+      const fetchId = fetchRef.current; 
       setOptions([]);
       setFetching(true);
 

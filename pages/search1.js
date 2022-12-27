@@ -7,7 +7,7 @@ const Search1 = () => {
   return (
     <div>
       <header className="App-header">
-        <p>Which is your favourite food</p>
+        <p className="bt-5 mt-5">Which is your favourite food</p>
         <Select
           mode="multiple"
           placeholder="select your fruits"
